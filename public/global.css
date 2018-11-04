@@ -6,3 +6,6 @@ a, a:visited, a:hover, a:active {
     text-decoration: none;
      color: rgb(58, 58, 58);
 }
+.outside-container{
+    padding: 0 100px;
+}

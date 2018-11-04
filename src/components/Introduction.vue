@@ -1,31 +1,28 @@
 <template>
   <div class="background">
     <div class="main-content">
-         <h1>Protect your bike <br>
-against theft and damage in minutes.</h1>
-
-    <h3>Register your bike in a free, international database. <br>
-For full protection, insure!
- </h3>
-
- <br>
- <br>
- 
- <span>I want to</span>
- <br>
-
- <button class="register"> <a href="https://docs.google.com/forms/d/e/1FAIpQLScMV3CrnkpFKblibiX874Qd_GEZK84t7UqBmY-SjY6zq9Zm5w/viewform">Register my bike</a></button>
- <button class="stolen"> <a href="https://docs.google.com/forms/d/e/1FAIpQLSclzPLH4bQdIlcrh3rmpi2i0zv_oO8gY62-5zO-ETAHqQCeKg/viewform">Report stolen bike</a> </button>
+        <h1>Регистрирај се. Пријави. Заштити! 
+        </h1>
+        <p> Придружете ни се да ги намалиме<br>
+            кражбите низ Македонија
+        </p>
+        <br>
+        <br>
+        <span>Сакам велосипедот да го:</span>
+        <br>
+        <button class="register">
+         <a href="https://docs.google.com/forms/d/e/1FAIpQLScMV3CrnkpFKblibiX874Qd_GEZK84t7UqBmY-SjY6zq9Zm5w/viewform">
+        Регистрирам</a></button>
+        <button class="stolen"> 
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSclzPLH4bQdIlcrh3rmpi2i0zv_oO8gY62-5zO-ETAHqQCeKg/viewform">
+        Пријавам за украден</a> </button>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: "Introduction",
-  props: {
-    msg: String
-  }
+  name: "Introduction"
 };
 </script>
 
@@ -54,9 +51,10 @@ a:active {
 }
 button {
   font-size: 15px;
+  padding: 0px 12px;
   margin: 15px 10px;
   height: 50px;
-  width: 150px;
+  min-width: 150px;
   border-radius: 7px;
   outline: none;
   border: none;
@@ -89,7 +87,7 @@ button {
 }
 .stolen:hover {
   transition: border 250ms ease-out;
-  border: 1.2px solid #fff;
+  border: 1.2px solid #cce7f8;
   background-color: #fff;
 }
 </style>

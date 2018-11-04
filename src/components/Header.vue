@@ -1,23 +1,22 @@
 <template>
  <nav>
-     <div id="logo">
-         <a href="#home"><img src="../assets/logo.png" alt="Logo"></a>
-     </div>
-     <ul>
-         <li><a href="#our-team">Our Team</a></li>
-         <li><a href="#mission">Mission</a></li>
-         <li><a href="#support">Support</a></li>
-         <li><a href="#contact">Contact</a></li>
-     </ul>
+    <div class="navigation outside-container">
+         <div id="logo">
+            <a href="#home"><img src="../assets/clearlogo.png" alt="Logo"></a>
+        </div>
+        <ul>
+            <li><a href="#mission">Нашата Цел</a></li>
+            <!-- <li><a href="#support">Support</a></li> -->
+            <li><a href="#contact">Контакт</a></li>
+            <li><a href="#our-team">Тимот</a></li>
+        </ul>
+    </div>
  </nav>
 </template>
 
 <script>
 export default {
-  name: "Header",
-  props: {
-    msg: String
-  }
+  name: "Header"
 };
 </script>
 
@@ -34,6 +33,8 @@ export default {
 nav {
   height: 100px;
   width: 100%;
+  font-size: 20px;
+  font-weight: 500;
   background-color: #f8f9fb;
 }
 ul {
@@ -52,6 +53,6 @@ ul li a {
   color: rgb(58, 58, 58);
 }
 ul li a:hover {
-  color: rgb(139, 139, 255);
+  color: rgb(157, 157, 229);
 }
 </style>
