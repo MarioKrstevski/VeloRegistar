@@ -2,7 +2,7 @@
  <nav>
     <div class="navigation outside-container">
          <div id="logo">
-            <a href="#home"><img src="../assets/clearlogo.png" alt="Logo"></a>
+            <a href="#home"><img src="../assets/widelogo2.png" alt="Logo"></a>
         </div>
         <ul>
             <li><a href="#mission">Нашата Цел</a></li>
@@ -27,8 +27,8 @@ export default {
   margin-left: 1%;
 }
 #logo img {
-  width: 100px;
-  height: 100px;
+  margin: 15px;
+  height: 90px;
 }
 nav {
   height: 100px;

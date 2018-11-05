@@ -30,11 +30,13 @@ export default {
   width: 33%;
   max-width: 300px;
   background-color: #278ed2a9;
+  transition: all 0.2s ease-in;
 }
 .member:hover {
   transform: scale(1.07);
   background-color: #278ed2;
   box-shadow: 0 5px 15px -5px #1f71a8;
+  transition: all 0.4s ease-out;
 }
 p,
 h2 {
