@@ -7,8 +7,8 @@
         <ul>
             <li><a href="#mission">Нашата Цел</a></li>
             <!-- <li><a href="#support">Support</a></li> -->
-            <li><a href="#contact">Контакт</a></li>
             <li><a href="#our-team">Тимот</a></li>
+            <li><a href="#contact">Контакт</a></li>
         </ul>
     </div>
  </nav>

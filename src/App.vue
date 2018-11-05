@@ -1,24 +1,31 @@
 <template>
-  <div id="app" class="">
-    <Header msg="Zdravo"></Header>
-    <Introduction  msg="Chao"></Introduction>
+  <div id="app" >
+    <Header />
+    <Introduction/>
+    <About/>
+    <MemberList/>
+    <Contact/>
   </div>
 </template>
 
 <script>
-import Header from "./components/Header.vue";
-import Introduction from "./components/Introduction.vue";
+import Header from "./components/Header";
+import Introduction from "./components/Introduction";
+import About from "./components/About";
+import MemberList from "./components/MemberList";
+import Contact from "./components/Contact";
 
 export default {
-  name: "app",
+  name: "App",
   components: {
     Introduction,
-    Header
+    Header,
+    About,
+    MemberList,
+    Contact
   }
 };
 </script>
 
 <style>
-#app {
-}
 </style>
