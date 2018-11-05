@@ -36,16 +36,17 @@ export default {
   background-color: #278ed2;
   box-shadow: 0 5px 15px -5px #1f71a8;
 }
-
 p,
 h2 {
   margin: 0;
   padding: 0;
 }
-
+p {
+  color: rgb(29, 29, 29);
+}
 img {
   background-color: #fff;
-  margin-top: 5px;
+  margin-top: 12px;
   border-radius: 50%;
   height: 70%;
   width: 70%;

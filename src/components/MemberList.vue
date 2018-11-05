@@ -2,12 +2,12 @@
     <div id="our-team">
         <div class="row">
            <Member name="Марјан" occupation="Server Master"/>
-           <Member  name="Ивона" occupation="SIS & CEO"/>
+           <Member  name="Ивона" occupation="CEO"/>
            <Member  name="Александар" occupation="Clean Designer"/>
         </div>
         <div class="row">
-            <Member  name="Ели" occupation="Markting Guru"/>
-            <Member name="Мариоги" occupation="Front-End Developer"/>
+            <Member  name="Ели" occupation="Marketing Guru"/>
+            <Member name="Марио" occupation="Front-End Developer"/>
         </div>
     </div>
 </template>
@@ -27,13 +27,13 @@ export default {
 #our-team {
   padding-top: 10px;
   background: #f8f9fb;
-  height: 460px;
+  height: 560px;
 }
 .row {
   display: flex;
   justify-content: center;
   margin: 12px;
   align-content: center;
-  height: 220px;
+  height: 260px;
 }
 </style>

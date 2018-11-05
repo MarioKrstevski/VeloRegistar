@@ -24,7 +24,7 @@ export default {
 <style scoped>
 #logo {
   display: inline-block;
-  margin-left: 50px;
+  margin-left: 1%;
 }
 #logo img {
   width: 100px;
@@ -39,7 +39,7 @@ nav {
 }
 ul {
   float: right;
-  padding-right: 50px;
+  padding-right: 1%;
   display: inline-block;
   margin: 0;
 }
@@ -53,6 +53,6 @@ ul li a {
   color: rgb(58, 58, 58);
 }
 ul li a:hover {
-  color: rgb(157, 157, 229);
+  color: #278ed2;
 }
 </style>
