@@ -1,6 +1,8 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+
+    <img :src="url" alt="TEST SLIKA" height="300" width="200">
     
   </div>
 </template>
@@ -10,6 +12,11 @@ export default {
   name: "HelloWorld",
   props: {
     msg: String
+  },
+  data() {
+    return {
+      url: require("../assets/ivona-resized.png") // eslint-disable-line no-undef
+    };
   }
 };
 </script>

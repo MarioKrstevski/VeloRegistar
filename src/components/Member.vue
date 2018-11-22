@@ -1,42 +1,55 @@
 <template>
     <div class="member">
-       <img src="../assets/logo.png" alt="Logo">
-
-       <h2>
-
-       {{name}}
-       </h2>
-       <p>
-
-       {{occupation}}
-       </p>
+       <div class="overlay"></div>    
+       <div class="names" :style="font">
+            {{name}}</div>  
+       <img :src="url" alt="Member Image"> 
     </div>
 </template>
 
 <script>
 export default {
   name: "Member",
-  props: ["name", "occupation"]
+  props: ["name", "url", "font"]
 };
 </script>
 
 <style scoped>
 .member {
-  border-radius: 13%;
   text-align: center;
-  margin: 9px;
-  display: inline-block;
+  display: inline;
   height: 100%;
-  width: 33%;
-  max-width: 300px;
-  background-color: #278ed2a9;
+  width: 19.9%;
   transition: all 0.2s ease-in;
 }
 .member:hover {
-  transform: scale(1.07);
+  /* transform: scale(1.07);
   background-color: #278ed2;
   box-shadow: 0 5px 15px -5px #1f71a8;
-  transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out; */
+}
+
+.names {
+  visibility: hidden;
+  z-index: 20;
+  color: white;
+  width: 19.9%;
+  height: 25vw;
+  line-height: 25vw;
+  font-size: 3vw;
+  position: absolute;
+}
+.member:hover > .names {
+  visibility: visible;
+}
+
+.member:hover > .overlay {
+  z-index: 10;
+  width: 19.9%;
+  height: 25vw;
+  position: absolute;
+  background-color: #000;
+  opacity: 0.7;
 }
 p,
 h2 {
@@ -47,10 +60,7 @@ p {
   color: rgb(29, 29, 29);
 }
 img {
-  background-color: #fff;
-  margin-top: 12px;
-  border-radius: 50%;
-  height: 70%;
-  width: 70%;
+  height: 100%;
+  width: 100%;
 }
 </style>
