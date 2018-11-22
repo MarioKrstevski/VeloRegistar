@@ -2,7 +2,8 @@
     <div class="member">
        <div class="overlay"></div>    
        <div class="names" :style="font">
-            {{name}}</div>  
+            {{name}}
+        </div>  
        <img :src="url" alt="Member Image"> 
     </div>
 </template>
@@ -21,12 +22,6 @@ export default {
   height: 100%;
   width: 19.9%;
   transition: all 0.2s ease-in;
-}
-.member:hover {
-  /* transform: scale(1.07);
-  background-color: #278ed2;
-  box-shadow: 0 5px 15px -5px #1f71a8;
-  transition: all 0.4s ease-out; */
 }
 
 .names {
