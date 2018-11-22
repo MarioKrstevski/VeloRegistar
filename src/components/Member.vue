@@ -21,7 +21,10 @@ export default {
   display: inline;
   height: 100%;
   width: 19.9%;
-  transition: all 0.2s ease-in;
+}
+
+.overlay {
+  transition: all 0.2s ease-out;
 }
 
 .names {
